@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Active link highlighting
         sections.forEach(section => {
-            const sectionTop = section.offsetTop;
+         // const sectionTop = section.offsetTop;
             const sectionHeight = section.clientHeight;
             if (scrollY >= (sectionTop - 150)) {
                 current = section.getAttribute('id');
