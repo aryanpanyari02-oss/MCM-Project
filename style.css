@@ -82,6 +82,11 @@ h1, h2, h3, h4, .logo, .hero-title {
     box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
 }
 
+.more_info{
+    text-align: center;
+    padding: 1rem;
+}
+
 .btn-primary:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(59, 130, 246, 0.5);
@@ -139,6 +144,11 @@ h1, h2, h3, h4, .logo, .hero-title {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+}
+
+.logo-image{
+    width: 40px;
+    border-radius: 50%;
 }
 
 .logo i {
